@@ -1,0 +1,80 @@
+*
+{
+	margin: 0; 
+}
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: #ffffff;
+	color:#000000;
+	font-size: 36px;
+	text-align: center;
+	-webkit-user-select: none; 
+  	user-select: none; 
+}
+#game_board
+{
+	background-color: #fc9117;
+	border-radius: 5px;
+	margin: 20px auto;
+	position: relative;
+}
+#piece_container
+{
+	background-color: #c48e50;
+	font-size: 0;
+	height: 96%;
+	left: 2%;
+	position: absolute;
+	top:2%;
+	width: 96%; 
+}
+#talking_box
+{
+	background-color: #000000;
+	border: 3px solid #00d9ff;
+	border-radius: 5px;
+	color: #ffffff;
+	height:auto;
+	margin: 10px auto;
+	padding-bottom: 5px;
+	width: 500px;
+}
+.resetbutton
+{
+	background-color: #3f3f3f;
+	border: 3px solid #00d9ff;
+	border-radius: 5px;
+	color: #ffffff;
+    font-size: 20px;
+	height:auto;
+	margin: 10px auto;
+	padding-bottom: 5px;
+	width: 200px;
+}
+.game_piece
+{	
+	background-color: #c6cee2;
+	border: 2px groove #737679;
+	box-sizing: border-box;
+	display: inline-block;		
+	height: 25%;
+	position: absolute;		
+	width: 25%;
+    cursor: pointer;
+    
+}
+.number_container
+{	
+    color: #000000;
+	cursor: default;
+	font-size: 50px;
+	height: 50%;
+	left: 50%;
+	margin: -25% 0 0-25%;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 50%;
+    cursor: pointer;
+}
